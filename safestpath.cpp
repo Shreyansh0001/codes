@@ -21,7 +21,7 @@ int check(int a)
 }
 
 int main() {
-	// your code goes here
+	
 	int i,j,row,col,a[100][100],count = 0,temp;
 	cin>>row>>col;
 	for(i=0;i<row;i++)
@@ -50,7 +50,7 @@ int main() {
 				count = count + 1;
 				if(count ==1)
 				{
-					temp = j; //checks the statrt of co-ordinate
+					temp = j; //checks the start of co-ordinate
 				}
 			}
 			else
@@ -67,9 +67,6 @@ int main() {
 				temp =0;
 			}
 			}
-			//count = check(count);
-	
-		
 		}
 		if(count>=3)
 		{
